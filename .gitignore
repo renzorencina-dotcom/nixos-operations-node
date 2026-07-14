@@ -1,0 +1,20 @@
+# Secrets and private keys
+*.key
+*.pem
+*secret*
+*password*
+.env
+.env.*
+
+# SSH keys
+id_ed25519*
+id_rsa*
+
+# Nix build results
+result
+result-*
+
+# Editor and OS files
+.DS_Store
+*.swp
+*.swo
